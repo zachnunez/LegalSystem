@@ -1,0 +1,1159 @@
+{
+  "type": "mysql",
+  "connection": {
+    "host": "192.168.15.197",
+    "user": "cpayomo",
+    "password": "SPMadrid6596!",
+    "database": "bcrm"
+  },
+  "direct": true,
+  "schema": {
+    "tables": {
+      "leads_substatus": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "users2": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "users_100417-1539-2": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "users": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "tblsearch_copy": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "utf8_general_ci"
+        }
+      },
+      "tblsearch": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "utf8_general_ci"
+        }
+      },
+      "tblsample": {
+        "db": {
+          "engine": "MyISAM",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "tbldirpldtres": {
+        "db": {
+          "engine": "MyISAM",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "tbldirpldtgovt": {
+        "db": {
+          "engine": "MyISAM",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "users_12162016-1209": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "users_092918-1300": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "users_101117-1850": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "tasks": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "placement": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "target_type": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "office_address": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "role": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "tbldirpldtbus": {
+        "db": {
+          "engine": "MyISAM",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "tbldirglobe": {
+        "db": {
+          "engine": "MyISAM",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "tblareabreaks": {
+        "db": {
+          "engine": "MyISAM",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "nestformC033122": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "nestform": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "modules": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "major_area": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "logs_status": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "logs": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "legal_history": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_status": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_source": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_selective": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_retagged": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_result": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_new_data": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_dl_revisit": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_dl_result": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_dl_reference": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_history": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_field_status": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_field": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_dl_logs": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_dl_followup": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_dl": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_assigned_users": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_area_break": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_agreement": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads_agreement_details": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "fileuploads": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "fielder_name": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "employee_target": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "leads": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        },
+        "columns": {
+          "leads_id": {
+            "db": {
+              "type": "increments",
+              "primary": true,
+              "nullable": false
+            }
+          },
+          "leads_num": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_client_id": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_status_id": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_substatus_id": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_users_id": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_acctno": {
+            "db": {
+              "type": "string",
+              "maxLength": 150,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_placement": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_chcode": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_chname": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_agency": {
+            "db": {
+              "type": "string",
+              "maxLength": 150,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_new_prin": {
+            "db": {
+              "type": "decimal",
+              "default": "'0.0000'",
+              "primary": false,
+              "nullable": true
+            }
+          },
+          "leads_prin": {
+            "db": {
+              "type": "decimal",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_interest": {
+            "db": {
+              "type": "text",
+              "maxLength": 65535,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_new_endo_date": {
+            "db": {
+              "type": "date",
+              "default": "'0000-00-00'",
+              "primary": false,
+              "nullable": true
+            }
+          },
+          "leads_endo_date": {
+            "db": {
+              "type": "date",
+              "default": "'0000-00-00'",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_lpd": {
+            "db": {
+              "type": "date",
+              "default": "'0000-00-00'",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_lpa": {
+            "db": {
+              "type": "decimal",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_cycle": {
+            "db": {
+              "type": "string",
+              "maxLength": 150,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_credit_limit": {
+            "db": {
+              "type": "string",
+              "maxLength": 150,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_relative_name": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_type_product": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_work_phone": {
+            "db": {
+              "type": "string",
+              "maxLength": 100,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_ob": {
+            "db": {
+              "type": "decimal",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_new_ob": {
+            "db": {
+              "type": "decimal",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_full_address": {
+            "db": {
+              "type": "text",
+              "maxLength": 65535,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_address1": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_address2": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_address3": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_address4": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_city": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_phone": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_email": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_employer": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_postal_code": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_birthday": {
+            "db": {
+              "type": "date",
+              "default": "'0000-00-00'",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_mobile_phone": {
+            "db": {
+              "type": "string",
+              "maxLength": 150,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_cutoff": {
+            "db": {
+              "type": "date",
+              "default": "'0000-00-00'",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_new_cutoff": {
+            "db": {
+              "type": "date",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_full_saddress": {
+            "db": {
+              "type": "text",
+              "maxLength": 65535,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_scompany": {
+            "db": {
+              "type": "string",
+              "maxLength": 150,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_saddress1": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_saddress2": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_saddress3": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_saddress4": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_saddress5": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_sbillcity": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_full_taddress": {
+            "db": {
+              "type": "text",
+              "maxLength": 65535,
+              "primary": false,
+              "nullable": true
+            }
+          },
+          "leads_taddress1": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": true
+            }
+          },
+          "leads_taddress2": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": true
+            }
+          },
+          "leads_taddress3": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": true
+            }
+          },
+          "leads_taddress4": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": true
+            }
+          },
+          "leads_tcity": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": true
+            }
+          },
+          "leads_new_address": {
+            "db": {
+              "type": "text",
+              "maxLength": 65535,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_new_contact": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_spo": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_payment": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_dob": {
+            "db": {
+              "type": "date",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_card_open_date": {
+            "db": {
+              "type": "date",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_write_off_date": {
+            "db": {
+              "type": "date",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_write_off_amount": {
+            "db": {
+              "type": "decimal",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_batch_users_id": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_deleted": {
+            "db": {
+              "type": "enum",
+              "default": "'0'",
+              "maxLength": 1,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_pullout": {
+            "db": {
+              "type": "date",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_last_status_result": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_ts": {
+            "db": {
+              "type": "timestamp",
+              "default": "knex.fn.now()",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "leads_block_code": {
+            "db": {
+              "type": "string",
+              "maxLength": 5,
+              "primary": false,
+              "nullable": true
+            }
+          },
+          "leads_other_address": {
+            "db": {
+              "type": "text",
+              "maxLength": 65535,
+              "primary": false,
+              "nullable": true
+            }
+          }
+        }
+      },
+      "grouping_substatus": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "grouping_status": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "group_status": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "dl_followup_ref": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "#Tableau_18_sid_001638B8_2_Connect_CheckSelectIntoCap": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "dl_fields": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "#Tableau_165_sid_00003069_4_Group": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_general_ci"
+        }
+      },
+      "compromise_field": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "client_users": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "dynamic_value": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "client_target": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_general_ci"
+        }
+      },
+      "dynamic_group": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "client_standard_field": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "dynamic": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        },
+        "columns": {
+          "dynamic_id": {
+            "db": {
+              "type": "increments",
+              "primary": true,
+              "nullable": false
+            }
+          },
+          "dynamic_client_id": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "dynamic_system_name": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "dynamic_value": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "dynamic_sort": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "dynamic_group_id": {
+            "db": {
+              "type": "integer",
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "dynamic_deleted": {
+            "db": {
+              "type": "enum",
+              "default": "'0'",
+              "maxLength": 1,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "dynamic_ts": {
+            "db": {
+              "type": "timestamp",
+              "default": "knex.fn.now()",
+              "primary": false,
+              "nullable": false
+            }
+          }
+        }
+      },
+      "client_dl": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "document_categories": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        },
+        "columns": {
+          "document_categories_id": {
+            "db": {
+              "type": "increments",
+              "primary": true,
+              "nullable": false
+            }
+          },
+          "document_categories_name": {
+            "db": {
+              "type": "string",
+              "maxLength": 250,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "document_categories_description": {
+            "db": {
+              "type": "text",
+              "maxLength": 65535,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "document_categories_deleted": {
+            "db": {
+              "type": "enum",
+              "default": "'0'",
+              "maxLength": 1,
+              "primary": false,
+              "nullable": false
+            }
+          },
+          "document_categories_ts": {
+            "db": {
+              "type": "timestamp",
+              "default": "knex.fn.now()",
+              "primary": false,
+              "nullable": false
+            }
+          }
+        }
+      },
+      "client_ca": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "document": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "client": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "dl_revisit_ref": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "archive_record": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "dl_ref": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      },
+      "alternative": {
+        "db": {
+          "engine": "InnoDB",
+          "schema": "bcrm",
+          "collation": "latin1_swedish_ci"
+        }
+      }
+    },
+    "views": {}
+  }
+}

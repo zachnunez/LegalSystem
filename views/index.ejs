@@ -1,0 +1,164 @@
+<!-- Wappler include head-page="layouts/main" bootstrap5="cdn" is="dmx-app" id="index" appConnect="local" fontawesome_5="cdn" components="{dmxBootstrap5TableGenerator:{}}" -->
+<dmx-serverconnect id="query" url="/api/query"></dmx-serverconnect>
+<header></header>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 contenteditable="true">Hello world!</h1>
+            </div>
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <th>Leads</th>
+                                <th>Leads num</th>
+                                <th>Leads client</th>
+                                <th>Leads status</th>
+                                <th>Leads substatus</th>
+                                <th>Leads users</th>
+                                <th>Leads acctno</th>
+                                <th>Leads placement</th>
+                                <th>Leads chcode</th>
+                                <th>Leads chname</th>
+                                <th>Leads agency</th>
+                                <th>Leads new prin</th>
+                                <th>Leads prin</th>
+                                <th>Leads interest</th>
+                                <th>Leads new endo date</th>
+                                <th>Leads endo date</th>
+                                <th>Leads lpd</th>
+                                <th>Leads lpa</th>
+                                <th>Leads cycle</th>
+                                <th>Leads credit limit</th>
+                                <th>Leads relative name</th>
+                                <th>Leads type product</th>
+                                <th>Leads work phone</th>
+                                <th>Leads ob</th>
+                                <th>Leads new ob</th>
+                                <th>Leads full address</th>
+                                <th>Leads address1</th>
+                                <th>Leads address2</th>
+                                <th>Leads address3</th>
+                                <th>Leads address4</th>
+                                <th>Leads city</th>
+                                <th>Leads phone</th>
+                                <th>Leads email</th>
+                                <th>Leads employer</th>
+                                <th>Leads postal code</th>
+                                <th>Leads birthday</th>
+                                <th>Leads mobile phone</th>
+                                <th>Leads cutoff</th>
+                                <th>Leads new cutoff</th>
+                                <th>Leads full saddress</th>
+                                <th>Leads scompany</th>
+                                <th>Leads saddress1</th>
+                                <th>Leads saddress2</th>
+                                <th>Leads saddress3</th>
+                                <th>Leads saddress4</th>
+                                <th>Leads saddress5</th>
+                                <th>Leads sbillcity</th>
+                                <th>Leads full taddress</th>
+                                <th>Leads taddress1</th>
+                                <th>Leads taddress2</th>
+                                <th>Leads taddress3</th>
+                                <th>Leads taddress4</th>
+                                <th>Leads tcity</th>
+                                <th>Leads new address</th>
+                                <th>Leads new contact</th>
+                                <th>Leads spo</th>
+                                <th>Leads payment</th>
+                                <th>Leads dob</th>
+                                <th>Leads card open date</th>
+                                <th>Leads write off date</th>
+                                <th>Leads write off amount</th>
+                                <th>Leads batch users</th>
+                                <th>Leads deleted</th>
+                                <th>Leads pullout</th>
+                                <th>Leads last status result</th>
+                                <th>Leads ts</th>
+                                <th>Leads block code</th>
+                                <th>Leads other address</th>
+                            </tr>
+                        </thead>
+                        <tbody is="dmx-repeat" dmx-generator="bs5table" dmx-bind:repeat="query.data.query" id="tableRepeat1">
+                            <tr>
+                                <td dmx-text="leads_id"></td>
+                                <td dmx-text="leads_num"></td>
+                                <td dmx-text="leads_client_id"></td>
+                                <td dmx-text="leads_status_id"></td>
+                                <td dmx-text="leads_substatus_id"></td>
+                                <td dmx-text="leads_users_id"></td>
+                                <td dmx-text="leads_acctno"></td>
+                                <td dmx-text="leads_placement"></td>
+                                <td dmx-text="leads_chcode"></td>
+                                <td dmx-text="leads_chname"></td>
+                                <td dmx-text="leads_agency"></td>
+                                <td dmx-text="leads_new_prin"></td>
+                                <td dmx-text="leads_prin"></td>
+                                <td dmx-text="leads_interest"></td>
+                                <td dmx-text="leads_new_endo_date"></td>
+                                <td dmx-text="leads_endo_date"></td>
+                                <td dmx-text="leads_lpd"></td>
+                                <td dmx-text="leads_lpa"></td>
+                                <td dmx-text="leads_cycle"></td>
+                                <td dmx-text="leads_credit_limit"></td>
+                                <td dmx-text="leads_relative_name"></td>
+                                <td dmx-text="leads_type_product"></td>
+                                <td dmx-text="leads_work_phone"></td>
+                                <td dmx-text="leads_ob"></td>
+                                <td dmx-text="leads_new_ob"></td>
+                                <td dmx-text="leads_full_address"></td>
+                                <td dmx-text="leads_address1"></td>
+                                <td dmx-text="leads_address2"></td>
+                                <td dmx-text="leads_address3"></td>
+                                <td dmx-text="leads_address4"></td>
+                                <td dmx-text="leads_city"></td>
+                                <td dmx-text="leads_phone"></td>
+                                <td dmx-text="leads_email"></td>
+                                <td dmx-text="leads_employer"></td>
+                                <td dmx-text="leads_postal_code"></td>
+                                <td dmx-text="leads_birthday"></td>
+                                <td dmx-text="leads_mobile_phone"></td>
+                                <td dmx-text="leads_cutoff"></td>
+                                <td dmx-text="leads_new_cutoff"></td>
+                                <td dmx-text="leads_full_saddress"></td>
+                                <td dmx-text="leads_scompany"></td>
+                                <td dmx-text="leads_saddress1"></td>
+                                <td dmx-text="leads_saddress2"></td>
+                                <td dmx-text="leads_saddress3"></td>
+                                <td dmx-text="leads_saddress4"></td>
+                                <td dmx-text="leads_saddress5"></td>
+                                <td dmx-text="leads_sbillcity"></td>
+                                <td dmx-text="leads_full_taddress"></td>
+                                <td dmx-text="leads_taddress1"></td>
+                                <td dmx-text="leads_taddress2"></td>
+                                <td dmx-text="leads_taddress3"></td>
+                                <td dmx-text="leads_taddress4"></td>
+                                <td dmx-text="leads_tcity"></td>
+                                <td dmx-text="leads_new_address"></td>
+                                <td dmx-text="leads_new_contact"></td>
+                                <td dmx-text="leads_spo"></td>
+                                <td dmx-text="leads_payment"></td>
+                                <td dmx-text="leads_dob"></td>
+                                <td dmx-text="leads_card_open_date"></td>
+                                <td dmx-text="leads_write_off_date"></td>
+                                <td dmx-text="leads_write_off_amount"></td>
+                                <td dmx-text="leads_batch_users_id"></td>
+                                <td dmx-text="leads_deleted"></td>
+                                <td dmx-text="leads_pullout"></td>
+                                <td dmx-text="leads_last_status_result"></td>
+                                <td dmx-text="leads_ts"></td>
+                                <td dmx-text="leads_block_code"></td>
+                                <td dmx-text="leads_other_address"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer></footer>
+<meta name="ac:route" content="/">

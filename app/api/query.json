@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "$_GET": [
+      {
+        "type": "text",
+        "name": "sort"
+      },
+      {
+        "type": "text",
+        "name": "dir"
+      }
+    ]
+  },
+  "exec": {
+    "steps": {
+      "name": "query",
+      "module": "dbconnector",
+      "action": "select",
+      "options": {
+        "sql": {
+          "type": "SELECT",
+          "columns": [],
+          "table": {
+            "name": "leads"
+          },
+          "joins": [],
+          "query": "SELECT *\nFROM leads",
+          "params": []
+        },
+        "connection": "bcrm"
+      },
+      "output": true,
+      "meta": [
+        {
+          "type": "number",
+          "name": "leads_id"
+        },
+        {
+          "type": "number",
+          "name": "leads_num"
+        },
+        {
+          "type": "number",
+          "name": "leads_client_id"
+        },
+        {
+          "type": "number",
+          "name": "leads_status_id"
+        },
+        {
+          "type": "number",
+          "name": "leads_substatus_id"
+        },
+        {
+          "type": "number",
+          "name": "leads_users_id"
+        },
+        {
+          "type": "text",
+          "name": "leads_acctno"
+        },
+        {
+          "type": "text",
+          "name": "leads_placement"
+        },
+        {
+          "type": "text",
+          "name": "leads_chcode"
+        },
+        {
+          "type": "text",
+          "name": "leads_chname"
+        },
+        {
+          "type": "text",
+          "name": "leads_agency"
+        },
+        {
+          "type": "number",
+          "name": "leads_new_prin"
+        },
+        {
+          "type": "number",
+          "name": "leads_prin"
+        },
+        {
+          "type": "text",
+          "name": "leads_interest"
+        },
+        {
+          "type": "date",
+          "name": "leads_new_endo_date"
+        },
+        {
+          "type": "date",
+          "name": "leads_endo_date"
+        },
+        {
+          "type": "date",
+          "name": "leads_lpd"
+        },
+        {
+          "type": "number",
+          "name": "leads_lpa"
+        },
+        {
+          "type": "text",
+          "name": "leads_cycle"
+        },
+        {
+          "type": "text",
+          "name": "leads_credit_limit"
+        },
+        {
+          "type": "text",
+          "name": "leads_relative_name"
+        },
+        {
+          "type": "text",
+          "name": "leads_type_product"
+        },
+        {
+          "type": "text",
+          "name": "leads_work_phone"
+        },
+        {
+          "type": "number",
+          "name": "leads_ob"
+        },
+        {
+          "type": "number",
+          "name": "leads_new_ob"
+        },
+        {
+          "type": "text",
+          "name": "leads_full_address"
+        },
+        {
+          "type": "text",
+          "name": "leads_address1"
+        },
+        {
+          "type": "text",
+          "name": "leads_address2"
+        },
+        {
+          "type": "text",
+          "name": "leads_address3"
+        },
+        {
+          "type": "text",
+          "name": "leads_address4"
+        },
+        {
+          "type": "text",
+          "name": "leads_city"
+        },
+        {
+          "type": "text",
+          "name": "leads_phone"
+        },
+        {
+          "type": "text",
+          "name": "leads_email"
+        },
+        {
+          "type": "text",
+          "name": "leads_employer"
+        },
+        {
+          "type": "number",
+          "name": "leads_postal_code"
+        },
+        {
+          "type": "date",
+          "name": "leads_birthday"
+        },
+        {
+          "type": "text",
+          "name": "leads_mobile_phone"
+        },
+        {
+          "type": "date",
+          "name": "leads_cutoff"
+        },
+        {
+          "type": "date",
+          "name": "leads_new_cutoff"
+        },
+        {
+          "type": "text",
+          "name": "leads_full_saddress"
+        },
+        {
+          "type": "text",
+          "name": "leads_scompany"
+        },
+        {
+          "type": "text",
+          "name": "leads_saddress1"
+        },
+        {
+          "type": "text",
+          "name": "leads_saddress2"
+        },
+        {
+          "type": "text",
+          "name": "leads_saddress3"
+        },
+        {
+          "type": "text",
+          "name": "leads_saddress4"
+        },
+        {
+          "type": "text",
+          "name": "leads_saddress5"
+        },
+        {
+          "type": "text",
+          "name": "leads_sbillcity"
+        },
+        {
+          "type": "text",
+          "name": "leads_full_taddress"
+        },
+        {
+          "type": "text",
+          "name": "leads_taddress1"
+        },
+        {
+          "type": "text",
+          "name": "leads_taddress2"
+        },
+        {
+          "type": "text",
+          "name": "leads_taddress3"
+        },
+        {
+          "type": "text",
+          "name": "leads_taddress4"
+        },
+        {
+          "type": "text",
+          "name": "leads_tcity"
+        },
+        {
+          "type": "text",
+          "name": "leads_new_address"
+        },
+        {
+          "type": "text",
+          "name": "leads_new_contact"
+        },
+        {
+          "type": "text",
+          "name": "leads_spo"
+        },
+        {
+          "type": "text",
+          "name": "leads_payment"
+        },
+        {
+          "type": "date",
+          "name": "leads_dob"
+        },
+        {
+          "type": "date",
+          "name": "leads_card_open_date"
+        },
+        {
+          "type": "date",
+          "name": "leads_write_off_date"
+        },
+        {
+          "type": "number",
+          "name": "leads_write_off_amount"
+        },
+        {
+          "type": "number",
+          "name": "leads_batch_users_id"
+        },
+        {
+          "type": "text",
+          "name": "leads_deleted"
+        },
+        {
+          "type": "date",
+          "name": "leads_pullout"
+        },
+        {
+          "type": "number",
+          "name": "leads_last_status_result"
+        },
+        {
+          "type": "datetime",
+          "name": "leads_ts"
+        },
+        {
+          "type": "text",
+          "name": "leads_block_code"
+        },
+        {
+          "type": "text",
+          "name": "leads_other_address"
+        }
+      ],
+      "outputType": "array"
+    }
+  }
+}
