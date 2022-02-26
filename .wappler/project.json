@@ -1,0 +1,21 @@
+{
+  "projectName": "Test01",
+  "routingHandler": "node",
+  "designFramework": "bootstrap5",
+  "hostingType": "wappler",
+  "projectServerModel": "node",
+  "useRouting": true,
+  "addBase": true,
+  "webRootFolder": "/public",
+  "targets": [
+    {
+      "name": "Development",
+      "remoteURL": "http://localhost:3000/",
+      "access": "local",
+      "targetType": "wappler"
+    }
+  ],
+  "frameworks": [],
+  "projectLinksType": "site",
+  "activeTarget": "Development"
+}
